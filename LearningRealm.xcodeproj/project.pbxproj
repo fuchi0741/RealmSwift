@@ -20,6 +20,7 @@
 		C50E3AE725EE70A0003943DA /* LearningRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3AE625EE70A0003943DA /* LearningRealmUITests.swift */; };
 		C50E3B0625EE7172003943DA /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3B0525EE7172003943DA /* TodoItem.swift */; };
 		C50E3B0E25EE7180003943DA /* TodoItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3B0D25EE7180003943DA /* TodoItemManager.swift */; };
+		C50E3B1325EE7260003943DA /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3B1225EE7260003943DA /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		C50E3AE825EE70A0003943DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C50E3B0525EE7172003943DA /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		C50E3B0D25EE7180003943DA /* TodoItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemManager.swift; sourceTree = "<group>"; };
+		C50E3B1225EE7260003943DA /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		F94A12E35288B8E750B72BAF /* Pods-LearningRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealmTests.debug.xcconfig"; path = "Target Support Files/Pods-LearningRealmTests/Pods-LearningRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 				C50E3ACD25EE70A0003943DA /* Assets.xcassets */,
 				C50E3ACF25EE70A0003943DA /* LaunchScreen.storyboard */,
 				C50E3AD225EE70A0003943DA /* Info.plist */,
+				C50E3B1225EE7260003943DA /* NextViewController.swift */,
 			);
 			path = LearningRealm;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C50E3B0E25EE7180003943DA /* TodoItemManager.swift in Sources */,
+				C50E3B1325EE7260003943DA /* NextViewController.swift in Sources */,
 				C50E3AC925EE709F003943DA /* ViewController.swift in Sources */,
 				C50E3AC525EE709F003943DA /* AppDelegate.swift in Sources */,
 				C50E3B0625EE7172003943DA /* TodoItem.swift in Sources */,

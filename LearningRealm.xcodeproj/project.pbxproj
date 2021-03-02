@@ -126,11 +126,11 @@
 				C50E3AC425EE709F003943DA /* AppDelegate.swift */,
 				C50E3AC625EE709F003943DA /* SceneDelegate.swift */,
 				C50E3AC825EE709F003943DA /* ViewController.swift */,
+				C50E3B1225EE7260003943DA /* NextViewController.swift */,
 				C50E3ACA25EE709F003943DA /* Main.storyboard */,
 				C50E3ACD25EE70A0003943DA /* Assets.xcassets */,
 				C50E3ACF25EE70A0003943DA /* LaunchScreen.storyboard */,
 				C50E3AD225EE70A0003943DA /* Info.plist */,
-				C50E3B1225EE7260003943DA /* NextViewController.swift */,
 			);
 			path = LearningRealm;
 			sourceTree = "<group>";

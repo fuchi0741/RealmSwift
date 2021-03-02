@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		C50E3AD125EE70A0003943DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50E3ACF25EE70A0003943DA /* LaunchScreen.storyboard */; };
 		C50E3ADC25EE70A0003943DA /* LearningRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3ADB25EE70A0003943DA /* LearningRealmTests.swift */; };
 		C50E3AE725EE70A0003943DA /* LearningRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3AE625EE70A0003943DA /* LearningRealmUITests.swift */; };
+		C50E3B0625EE7172003943DA /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3B0525EE7172003943DA /* TodoItem.swift */; };
+		C50E3B0E25EE7180003943DA /* TodoItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E3B0D25EE7180003943DA /* TodoItemManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		C50E3AE225EE70A0003943DA /* LearningRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50E3AE625EE70A0003943DA /* LearningRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningRealmUITests.swift; sourceTree = "<group>"; };
 		C50E3AE825EE70A0003943DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50E3B0525EE7172003943DA /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		C50E3B0D25EE7180003943DA /* TodoItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemManager.swift; sourceTree = "<group>"; };
 		F94A12E35288B8E750B72BAF /* Pods-LearningRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealmTests.debug.xcconfig"; path = "Target Support Files/Pods-LearningRealmTests/Pods-LearningRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +120,7 @@
 		C50E3AC325EE709F003943DA /* LearningRealm */ = {
 			isa = PBXGroup;
 			children = (
+				C50E3B0425EE7167003943DA /* Model */,
 				C50E3AC425EE709F003943DA /* AppDelegate.swift */,
 				C50E3AC625EE709F003943DA /* SceneDelegate.swift */,
 				C50E3AC825EE709F003943DA /* ViewController.swift */,
@@ -145,6 +150,15 @@
 			path = LearningRealmUITests;
 			sourceTree = "<group>";
 		};
+		C50E3B0425EE7167003943DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C50E3B0525EE7172003943DA /* TodoItem.swift */,
+				C50E3B0D25EE7180003943DA /* TodoItemManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D48E846C1E28CFABEEA93023 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +179,6 @@
 				F94A12E35288B8E750B72BAF /* Pods-LearningRealmTests.debug.xcconfig */,
 				B1180CEC0CBD806BEED7104E /* Pods-LearningRealmTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,8 +420,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50E3B0E25EE7180003943DA /* TodoItemManager.swift in Sources */,
 				C50E3AC925EE709F003943DA /* ViewController.swift in Sources */,
 				C50E3AC525EE709F003943DA /* AppDelegate.swift in Sources */,
+				C50E3B0625EE7172003943DA /* TodoItem.swift in Sources */,
 				C50E3AC725EE709F003943DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
